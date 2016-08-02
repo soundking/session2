@@ -1,20 +1,23 @@
-
 body {
     padding: 10px;
 }
 
 .rect {
     background-color: green;
-    width: 350px;
+    width: 300px;
     height: 150px;
     opacity: 0.6;
     border-radius: 10px;
-    border: 1px solid darkgreen;
     margin-top: 10px;
     display: none;
 }
 
-.switch {
-    background-color: red;
-    border: 2px solid darkred;
+.message {
+    margin-left: 10px;
+    display: none;
+}
+
+.counter {
+    display: inline-block;
+    margin-left: 5px;
 }
